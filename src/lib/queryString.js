@@ -1,12 +1,7 @@
-const queryString = obj => {
-  const query = Object.entries(obj)
-    .map(item => {
-      return `${item[0]}=${item[1]}`;
-    })
+const queryString = obj =>
+  Object.entries(obj)
+    .map(([key, value]) => `${key}=${value}`)
     .join('&');
-
-  return query;
-};
 
 module.exports = {
   queryString,
