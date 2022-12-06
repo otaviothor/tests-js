@@ -9,7 +9,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O projeto contém códigos gerados através do curso sobre testes chamado `Aprenda a testar aplicações Javascript`, ministrado pelo educador e especialista em testes [`Fábio Vedovelli`](https://github.com/vedovelli)
+O projeto contém códigos gerados através do curso sobre testes chamado [`Aprenda a testar aplicações Javascript`](https://www.javascript.tv.br/), ministrado pelo educador e especialista em testes [`Fábio Vedovelli`](https://github.com/vedovelli)
 
 ## 🚀 Como executar
 
