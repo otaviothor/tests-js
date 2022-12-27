@@ -59,4 +59,13 @@ describe('Query string to object', () => {
       name: 'otavio',
     });
   });
+
+  it('should convert a query string to an object taking care of comma separated values', () => {
+    const qs = 'name=otavio&abilities=JS,CSHARP';
+
+    expect(parse(qs)).toEqual({
+      name: 'otavio',
+      abilities: ['JS', 'CSHARP'],
+    });
+  });
 });
