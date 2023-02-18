@@ -1,4 +1,4 @@
-const { sum } = require('./calculator');
+import { sum } from './calculator';
 
 // to write tests, you can use the `test` or `it` method
 // test ("should ...", () => {})

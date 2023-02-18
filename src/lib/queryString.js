@@ -18,7 +18,4 @@ const parse = qs =>
     }),
   );
 
-module.exports = {
-  queryString,
-  parse,
-};
+export { queryString, parse };
