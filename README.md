@@ -16,6 +16,8 @@ O projeto contém códigos gerados através do curso sobre testes chamado [`Apre
 - Clone o repositório
 - Instale as dependências com `npm i`
 - Rode os testes com o comando `npm run test`
+- Caso queira rodar os testes em tempo de desenvolvimento sem a necessidade de ficar parando e iniciando toda vez, basta rodar com o comando `npm run test:watch`
+- E para gerar o coverage, basta rodar `npm run test:coverage`
 
 ## 📄 Licença
 
