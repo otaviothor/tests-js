@@ -22,12 +22,24 @@ export default class Cart {
     remove(this.items, { product });
   }
 
-  summary() {}
+  sumary() {
+    const total = this.getTotal;
+    const items = this.items;
+
+    return {
+      total,
+      items,
+    };
+  }
 
   checkout() {
+    const { total, items } = this.sumary;
+
+    this.items = [];
+
     return {
-      total: this.getTotal(),
-      items: this.items,
+      total,
+      items,
     };
   }
 }

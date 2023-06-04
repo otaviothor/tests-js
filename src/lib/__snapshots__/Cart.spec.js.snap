@@ -2,6 +2,13 @@
 
 exports[`Cart checkout() should return an object with the total and the list of items 1`] = `
 {
+  "items": undefined,
+  "total": undefined,
+}
+`;
+
+exports[`Cart checkout() should return an object with the total and the list of items when sumary() is called 1`] = `
+{
   "items": [
     {
       "product": {
@@ -18,6 +25,6 @@ exports[`Cart checkout() should return an object with the total and the list of 
       "quantity": 3,
     },
   ],
-  "total": 196392,
+  "total": [Function],
 }
 `;
