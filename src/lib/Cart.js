@@ -24,5 +24,10 @@ export default class Cart {
 
   summary() {}
 
-  checkout() {}
+  checkout() {
+    return {
+      total: this.getTotal(),
+      items: this.items,
+    };
+  }
 }
