@@ -25,6 +25,6 @@ exports[`Cart checkout() should return an object with the total and the list of 
       "quantity": 3,
     },
   ],
-  "total": [Function],
+  "total": 196392,
 }
 `;
